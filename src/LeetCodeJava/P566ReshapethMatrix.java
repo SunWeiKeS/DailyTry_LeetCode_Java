@@ -1,6 +1,6 @@
-package leetcode_challenge;
+package LeetCodeJava;
 
-public class _566ReshapethMatrix {
+public class P566ReshapethMatrix {
 	public static int[][] matrixReshape(int[][] nums, int r, int c) {
 		int m=nums.length;int n=nums[0].length;
 

@@ -1,6 +1,6 @@
-package leetcode_challenge;
+package LeetCodeJava;
 
-public class _476NumberComplement {
+public class P476NumberComplement {
 	public static int findComplement(int num) {
 		return ~num & ((Integer.highestOneBit(num) << 1) - 1);
 	}

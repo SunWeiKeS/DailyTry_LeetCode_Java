@@ -1,4 +1,4 @@
-package hanjia_2020;
+package LeetCodeJava;
 
 public class P7_reverse {
     public int reverse(int x) {

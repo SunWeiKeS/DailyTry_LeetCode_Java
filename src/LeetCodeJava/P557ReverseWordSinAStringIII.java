@@ -1,10 +1,10 @@
-package leetcode_challenge;
+package LeetCodeJava;
 
 /*
  * Input: "Let's take LeetCode contest"
  * Output: "s'teL ekat edoCteeL tsetnoc"
  */
-public class _557ReverseWordSinAStringIII {
+public class P557ReverseWordSinAStringIII {
 	public String reverseWords(String s) {
 		char[] s1 = s.toCharArray();
 		int i = 0;
@@ -29,7 +29,7 @@ public class _557ReverseWordSinAStringIII {
 	}
 
 	public static void main(String[] args) {
-		_557ReverseWordSinAStringIII demo = new _557ReverseWordSinAStringIII();
+		P557ReverseWordSinAStringIII demo = new P557ReverseWordSinAStringIII();
 		String a = demo.reverseWords("Let's take LeetCode contest");
 		System.out.println(a);
 

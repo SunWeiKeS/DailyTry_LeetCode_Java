@@ -1,8 +1,8 @@
-package leetcode_challenge;
+package LeetCodeJava;
 
 import java.util.Arrays;
 
-public class _561ArrayPartition {
+public class P561ArrayPartition {
 	public static int arrayPairSum(int[] nums) {
         Arrays.sort(nums);
         int result = 0;

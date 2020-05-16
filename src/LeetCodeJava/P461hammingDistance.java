@@ -1,6 +1,6 @@
-package leetcode_challenge;
+package LeetCodeJava;
 
-public class _461hammingDistance {
+public class P461hammingDistance {
 	 public static int hammingDistance(int x, int y) {
 	       
 		 return Integer.bitCount(x^y);

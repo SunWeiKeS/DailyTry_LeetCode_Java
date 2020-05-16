@@ -1,4 +1,4 @@
-package hanjia_2020;
+package LeetCodeJava;
 
 import java.util.HashMap;
 
