@@ -19,9 +19,7 @@ public class P1028_recoverFromPreorder {
     public TreeNode recoverFromPreorder(String S) {
 
         TreeNode ans = null;
-
-
-
+        
         return ans;
     }
 
