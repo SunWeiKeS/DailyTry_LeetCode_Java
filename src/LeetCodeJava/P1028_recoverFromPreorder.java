@@ -21,12 +21,13 @@ public class P1028_recoverFromPreorder {
         TreeNode ans = null;
 
 
+
         return ans;
     }
 
     public static void main(String[] args) {
         P1028_recoverFromPreorder p1028_recoverFromPreorder = new P1028_recoverFromPreorder();
-
+        p1028_recoverFromPreorder.recoverFromPreorder("1-2--3--4-5--6--7");
     }
 
 }
