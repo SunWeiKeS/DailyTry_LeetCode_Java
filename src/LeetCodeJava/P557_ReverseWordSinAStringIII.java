@@ -4,7 +4,7 @@ package LeetCodeJava;
  * Input: "Let's take LeetCode contest"
  * Output: "s'teL ekat edoCteeL tsetnoc"
  */
-public class P557ReverseWordSinAStringIII {
+public class P557_ReverseWordSinAStringIII {
 	public String reverseWords(String s) {
 		char[] s1 = s.toCharArray();
 		int i = 0;
@@ -29,7 +29,7 @@ public class P557ReverseWordSinAStringIII {
 	}
 
 	public static void main(String[] args) {
-		P557ReverseWordSinAStringIII demo = new P557ReverseWordSinAStringIII();
+		P557_ReverseWordSinAStringIII demo = new P557_ReverseWordSinAStringIII();
 		String a = demo.reverseWords("Let's take LeetCode contest");
 		System.out.println(a);
 
