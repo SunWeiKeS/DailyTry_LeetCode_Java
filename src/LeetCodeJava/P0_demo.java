@@ -1,14 +1,18 @@
 package LeetCodeJava;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class P0_demo {
     public static void main(String[] args) {
-        int []a ={1,2,3,45};
-        int []b=a.clone();
-        b[2]=4342;
-        for (int i = 0; i <b.length-1; i++) {
-            System.out.println(b[i]);
+        List<String> stringList = new ArrayList<>();
+        stringList.add(0,"string0");
+        stringList.add(1,"string1");
+        stringList.add(2,"string2");
+        stringList.add(3,"string3");
+        stringList.add(2,"string4");
 
-            System.out.println(a[i]);
-        }
+        System.out.println(stringList);
+
     }
 }
