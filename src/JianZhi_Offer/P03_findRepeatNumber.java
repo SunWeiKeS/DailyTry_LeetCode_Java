@@ -16,7 +16,9 @@ public class P03_findRepeatNumber {
                 return nums[i];
         }
         return -1;
+        
     }
+
 
     public int findRepeatNumber2(int []nums){
         //边存哈希边比较
