@@ -3,16 +3,7 @@ package JianZhi_Offer;
 
 import java.util.HashSet;
 
-//Definition for singly-linked list.
-class ListNode {
-    int val;
-    ListNode next;
 
-    ListNode(int x) {
-        val = x;
-        next = null;
-    }
-}
 
 public class P52_getIntersectionNode {
 
