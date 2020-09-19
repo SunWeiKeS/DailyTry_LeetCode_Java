@@ -11,15 +11,6 @@ import java.util.*;
  *  2. 采用层次遍历法 引入queue
  */
 
-class TreeNode {
-    int val;
-    TreeNode left;
-    TreeNode right;
-
-    TreeNode(int x) {
-        val = x;
-    }
-}
 
 public class P55_maxDepth {
     public int maxDepth1(TreeNode root) {
