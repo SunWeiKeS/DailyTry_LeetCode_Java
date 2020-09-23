@@ -1,15 +1,6 @@
 package JianZhi_Offer;
 
 
-// Definition for singly-linked list.
-class ListNode {
-    int val;
-    ListNode next;
-
-    ListNode(int x) {
-        val = x;
-    }
-}
 
 public class P24_reverseList {
     public ListNode reverseList(ListNode head) {
