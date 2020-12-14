@@ -1,4 +1,4 @@
-package someTrick.PackageQuiz背包问题;
+package someTrick.PackageQuiz;
 
 /**
  * @description: 3、完全背包：每类物品可以无限次装进包内

@@ -1,4 +1,4 @@
-package someTrick.PackageQuiz背包问题;
+package someTrick.PackageQuiz;
 
 /**
  * @description: 2、多重背包：每类物品都有个数限制，第i类物品最多可以装num[i]次

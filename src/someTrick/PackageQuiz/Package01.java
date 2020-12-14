@@ -1,4 +1,4 @@
-package someTrick.PackageQuiz背包问题;
+package someTrick.PackageQuiz;
 
 /**
  * @description: 一个背包的总容量为V, 现在有N类物品, 第i类物品的重量为weight[i], 价值为value[i]
