@@ -3,15 +3,7 @@ package com.vicsun.JianZhi_Offer;
 import java.util.LinkedList;
 import java.util.Queue;
 
-class TreeNode {
-    int val;
-    TreeNode left;
-    TreeNode right;
 
-    TreeNode(int x) {
-        val = x;
-    }
-}
 
 public class P28_isSymmetric {//判断是否是轴对称
 
@@ -22,7 +14,7 @@ public class P28_isSymmetric {//判断是否是轴对称
 
         return isSym(root.left,root.right);
     }
-    public boolean isSym(TreeNode L,TreeNode R) {
+    public boolean isSym(TreeNode L, TreeNode R) {
         if(L==null&&R==null)
             return true;
         if(L==null||R==null||L.val!=R.val)
