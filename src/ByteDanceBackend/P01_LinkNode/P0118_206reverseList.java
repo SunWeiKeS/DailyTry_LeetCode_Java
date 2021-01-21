@@ -1,4 +1,4 @@
-package ByteDanceBackend;
+package ByteDanceBackend.P01_LinkNode;
 
 
 public class P0118_206reverseList {

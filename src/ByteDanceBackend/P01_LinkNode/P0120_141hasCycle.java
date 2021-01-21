@@ -1,4 +1,4 @@
-package ByteDanceBackend;
+package ByteDanceBackend.P01_LinkNode;
 
 import java.util.HashSet;
 
