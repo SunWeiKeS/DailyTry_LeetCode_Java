@@ -20,6 +20,7 @@ public class P32_levelOrder {
         Queue<TreeNode> queue = new LinkedList<>();//存放队列
         List<List<Integer>> res = new ArrayList<>();//用于返回
         queue.add(root);
+
         while (!queue.isEmpty()){
             List<Integer> tmp = new ArrayList<>();//要添加进去的结构
             for (int i = queue.size(); i >0 ; i--) {
