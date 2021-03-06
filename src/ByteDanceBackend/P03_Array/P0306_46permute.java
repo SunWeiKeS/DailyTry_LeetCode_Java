@@ -25,7 +25,7 @@ public class P0306_46permute {
             //如果没有包含这个元素则进行以下步骤
             list.add(nums[i]);
             dfs(res, list, nums);
-            list.remove(list.size()-1);
+            list.remove(list.size()-1);//这一步是一个逐层删除的过程！！！所以表现出来最后的使用完了list也清空了
 
         }
 
