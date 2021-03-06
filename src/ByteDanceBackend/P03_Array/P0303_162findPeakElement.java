@@ -1,6 +1,6 @@
 package ByteDanceBackend.P03_Array;
 
-public class P10303_162findPeakElement {
+public class P0303_162findPeakElement {
     public int findPeakElement1(int[] nums) {
 
         for (int i = 0; i < nums.length; i++) {
