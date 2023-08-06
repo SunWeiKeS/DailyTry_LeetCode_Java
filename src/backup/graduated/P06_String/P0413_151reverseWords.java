@@ -1,4 +1,4 @@
-package BackUp.graduated.P06_String;
+package backup.graduated.P06_String;
 
 /**
  * @Author:vic

@@ -1,4 +1,4 @@
-package BackUp.graduated.P06_String;
+package backup.graduated.P06_String;
 
 public class P05_replaceSpace {
     public String replaceSpace(String s) {

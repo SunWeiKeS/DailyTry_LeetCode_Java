@@ -1,4 +1,4 @@
-package BackUp.graduated.P04_Backtracking;
+package backup.graduated.P04_Backtracking;
 
 public class P0309_79exist {
     public boolean exist(char[][] board, String word) {

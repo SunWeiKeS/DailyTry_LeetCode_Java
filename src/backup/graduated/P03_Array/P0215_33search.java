@@ -1,4 +1,4 @@
-package BackUp.graduated.P03_Array;
+package backup.graduated.P03_Array;
 
 public class P0215_33search {
     public int search(int[] nums, int target) {

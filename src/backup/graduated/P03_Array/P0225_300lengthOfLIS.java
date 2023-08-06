@@ -1,4 +1,4 @@
-package BackUp.graduated.P03_Array;
+package backup.graduated.P03_Array;
 
 import java.util.Arrays;
 

@@ -1,4 +1,4 @@
-package BackUp.graduated.P07_Math;
+package backup.graduated.P07_Math;
 
 public class P15_hammingWeight {
     // you need to treat n as an unsigned value

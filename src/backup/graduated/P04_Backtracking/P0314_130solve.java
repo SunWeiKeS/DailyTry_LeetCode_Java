@@ -1,4 +1,4 @@
-package BackUp.graduated.P04_Backtracking;
+package backup.graduated.P04_Backtracking;
 
 public class P0314_130solve {
     public void solve(char[][] board) {

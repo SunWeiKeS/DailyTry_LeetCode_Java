@@ -1,4 +1,4 @@
-package BackUp.graduated.P04_Backtracking;
+package backup.graduated.P04_Backtracking;
 
 import java.util.ArrayList;
 import java.util.List;

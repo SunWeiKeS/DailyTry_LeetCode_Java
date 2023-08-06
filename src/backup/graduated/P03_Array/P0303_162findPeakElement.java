@@ -1,4 +1,4 @@
-package BackUp.graduated.P03_Array;
+package backup.graduated.P03_Array;
 
 public class P0303_162findPeakElement {
     public int findPeakElement1(int[] nums) {

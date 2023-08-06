@@ -1,4 +1,4 @@
-package BackUp.graduated.P03_Array;
+package backup.graduated.P03_Array;
 
 public class P0222_122maxProfit {
     public int maxProfit(int[] prices) {

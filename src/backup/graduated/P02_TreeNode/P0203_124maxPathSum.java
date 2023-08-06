@@ -1,4 +1,4 @@
-package BackUp.graduated.P02_TreeNode;
+package backup.graduated.P02_TreeNode;
 
 public class P0203_124maxPathSum {
     public class TreeNode {

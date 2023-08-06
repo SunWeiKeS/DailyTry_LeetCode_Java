@@ -1,4 +1,4 @@
-package BackUp.graduated.P03_Array;
+package backup.graduated.P03_Array;
 
 public class P21_exchange {
     public int[] exchange0(int[] nums) {

@@ -1,4 +1,4 @@
-package BackUp.graduated.P03_Array;
+package backup.graduated.P03_Array;
 
 public class P04_findNumberIn2DArray {
     public boolean findNumberIn2DArray(int[][] matrix, int target) {

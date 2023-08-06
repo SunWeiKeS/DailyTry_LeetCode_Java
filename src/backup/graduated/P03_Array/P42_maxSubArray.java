@@ -1,4 +1,4 @@
-package BackUp.graduated.P03_Array;
+package backup.graduated.P03_Array;
 
 public class P42_maxSubArray {
     public int maxSubArray1(int[] nums) {

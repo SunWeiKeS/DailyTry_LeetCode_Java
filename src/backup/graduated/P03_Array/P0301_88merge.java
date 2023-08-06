@@ -1,4 +1,4 @@
-package BackUp.graduated.P03_Array;
+package backup.graduated.P03_Array;
 
 public class P0301_88merge {
     public void merge(int[] nums1, int m, int[] nums2, int n) {

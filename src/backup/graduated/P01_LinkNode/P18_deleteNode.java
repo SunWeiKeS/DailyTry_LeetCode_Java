@@ -1,4 +1,4 @@
-package BackUp.graduated.P01_LinkNode;
+package backup.graduated.P01_LinkNode;
 
 public class P18_deleteNode {
     class ListNode {

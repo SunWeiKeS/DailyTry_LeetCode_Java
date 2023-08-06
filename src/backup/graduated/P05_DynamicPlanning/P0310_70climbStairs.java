@@ -1,4 +1,4 @@
-package BackUp.graduated.P05_DynamicPlanning;
+package backup.graduated.P05_DynamicPlanning;
 
 public class P0310_70climbStairs {
     public int climbStairs1(int n) {

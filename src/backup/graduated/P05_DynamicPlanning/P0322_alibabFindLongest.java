@@ -1,4 +1,4 @@
-package BackUp.graduated.P05_DynamicPlanning;
+package backup.graduated.P05_DynamicPlanning;
 //题目：给n个有序字符串(仅小写字母,ASCII序递增),求所能拼接的最长有序子串的长度。
 //例如["aaa","bcd","zzz","bcdef","def"]所能拼接出的最长有序子串为
 //aaa,bcd,def,zzz拼接出的aaabcddefzzz长度为12
