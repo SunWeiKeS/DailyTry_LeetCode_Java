@@ -1,6 +1,6 @@
 package labuladong.P1_BinaryTree;
 
-class Node {
+public class Node {
     public int val;
     public Node left;
     public Node right;
