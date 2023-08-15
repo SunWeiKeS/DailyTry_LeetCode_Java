@@ -4,7 +4,6 @@ import java.util.LinkedList;
 import java.util.Queue;
 
 public class P230805Solution {
-
     public Node connect(Node root) {
         if (root == null) {
             return null;
