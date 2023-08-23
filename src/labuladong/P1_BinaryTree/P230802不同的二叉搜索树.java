@@ -1,6 +1,6 @@
 package labuladong.P1_BinaryTree;
 
-public class P230802Solution {
+public class P230802不同的二叉搜索树 {
     public int numTrees(int n) {
         int[] array = new int[n + 1];
         array[0] = 1;

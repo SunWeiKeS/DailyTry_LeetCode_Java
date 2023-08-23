@@ -3,7 +3,8 @@ package labuladong.P1_BinaryTree;
 import java.util.LinkedList;
 import java.util.Queue;
 
-public class P230805Solution {
+public class P230805填充每个节点的下一个右侧节点指针 {
+    // 填充每个节点的下一个右侧节点指针
     public Node connect(Node root) {
         if (root == null) {
             return null;

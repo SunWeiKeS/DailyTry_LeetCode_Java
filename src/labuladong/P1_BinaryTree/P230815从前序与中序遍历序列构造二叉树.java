@@ -2,7 +2,7 @@ package labuladong.P1_BinaryTree;
 
 import java.util.Arrays;
 
-public class P230815Solution {
+public class P230815从前序与中序遍历序列构造二叉树 {
     /**
      * 105. 从前序与中序遍历序列构造二叉树
      * 给定两个整数数组 preorder 和 inorder ，

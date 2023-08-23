@@ -1,6 +1,6 @@
 package labuladong.P2_DoublePoint;
 
-public class P230524Solution {
+public class P230524反转链表II {
 
     /**
      * 92. 反转链表 II

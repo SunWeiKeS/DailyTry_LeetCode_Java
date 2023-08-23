@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 
-public class P230813Solution {
+public class P230813寻找重复的子树 {
     /**
      * 652. 寻找重复的子树
      * 给你一棵二叉树的根节点 root ，返回所有 重复的子树 。
