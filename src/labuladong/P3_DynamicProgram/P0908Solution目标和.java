@@ -3,7 +3,7 @@ package labuladong.P3_DynamicProgram;
 import java.util.Arrays;
 
 class P0908Solution目标和 {
-    public static int findTargetSumWays(int[] nums, int target) {
+    public static int findTargetSumWays1(int[] nums, int target) {
         if (nums == null || nums.length == 0) return 0;
         int sum = Arrays.stream(nums).sum();
         if (sum < Math.abs(target)) return 0;
@@ -36,5 +36,22 @@ class P0908Solution目标和 {
             }
         }
         return dp[nums.length - 1][targetX];
+    }
+
+    public static int findTargetSumWays(int[] nums, int target) {
+        if (nums == null || nums.length == 0) return 0;
+        int sum = Arrays.stream(nums).sum();
+        if (sum < Math.abs(target)) return 0;
+        if ((sum + target) % 2 == 1) return 0;
+
+        int targetX = (sum + target) / 2;
+        int[] dp = new int[targetX + 1]; // 填满容量为targetX的背包,nums是可选可不选
+        dp[0] = 1;
+        for (int i = 0; i < nums.length; i++) {
+            for (int j = targetX; j >= nums[i]; j--) {
+                dp[j] += dp[j - nums[i]];
+            }
+        }
+        return dp[targetX];
     }
 }
